@@ -1,0 +1,2 @@
+# RobolectricSample
+Robolectricを使ったKotlinでのテストサンプルです。
