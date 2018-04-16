@@ -21,7 +21,7 @@ import org.robolectric.annotation.Config
 class ExampleUnitTest {
     @Test
     fun hello_world_isCorrect() {
-        val activity = Robolectric.setupActivity(MainActivity::class.java!!)
+        val activity = Robolectric.setupActivity(MainActivity::class.java)
         val textView = activity.main_text
         activity.fab.performClick()
         assertEquals(textView.text,"Hello World!")
